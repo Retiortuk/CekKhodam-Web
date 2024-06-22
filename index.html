@@ -5,25 +5,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cek Khodam</title>
+    <style>
+       body {
+        background-color: rgb(0, 4, 20);
+       }
+
+       h1{
+        color: white;
+       }
+
+       .container_input{
+        background-color: rgb(27, 36, 53);
+        height: 400px;
+        width: 470px;
+        padding: 10px;
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        text-align: center;
+        border-radius: 15px;
+       }
+
+       .nama{
+        margin: 10px 20px 30px 1px;
+        color: white;
+       }
+
+       .umur{
+        margin: 10px 20px 30px 1px;
+        color: white;
+       }
+
+       #button{
+        color: white;
+        background-color: rgb(0, 122, 16);
+        margin-bottom: 1px ;
+        margin-left: 1px;
+        margin-top: 133px;
+        border-radius: 6px;
+        font-weight: 600;
+        border: none;
+        padding: 12px 16px;
+       }
+    </style>
 </head>
+
+
+
+
 <body>
 
-    <h1>Cek Khodam Yuk!</h1>
 
+   
     <form action="process.php" method="post">
 
-        <label for="nama">Siapa Nama Anda:</label>
-        <input type="text" name="nama" id="nama" placeholder="Masukan Nama Anda" required>
+    <div class="container_input">
+        <h1>Cek Khodam Yuk!</h1>
 
-        <label for="umur">Berapa Umur Anda:</label>
-        <input type="text" name="umur" id="umur" placeholder="Masukan Umur Anda" required>
-
-        <label for="makanan">Makanan Kesukaan Anda:</label>
-        <input type="text" name="makanan" id="makanan" placeholder="Makanan Favorit Anda" required>
-
-        <input type="submit" value="Cek Khodam">
+        <div class="nama">
+            <label for="nama">Siapa Nama Anda:</label>
+            <input type="text" name="nama" id="nama" placeholder="Masukan Nama Anda" required>
+        </div>
+            
+        <div class="umur">
+            <label for="umur">Berapa Umur Anda:</label>
+            <input type="text" name="umur" id="umur" placeholder="Masukan Umur Anda" required>
+        </div>
+            
+        <div class="button">
+            <button type="submit" id="button" name="cek">Cek Khodam</button>
+        </div>
+    </div>
         
     </form>
-    
+
+
+
 </body>
 </html>
