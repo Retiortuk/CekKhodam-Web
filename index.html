@@ -4,11 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Cek Khodam</title>
     <style>
+
        body {
         background-color: rgb(0, 4, 20);
+		font-family: 'Poppins', sans-serif;
        }
+
+	  /*  input[type="text"] {
+		background-color: aqua;
+	   } */
 
        h1{
         color: white;
@@ -17,7 +26,7 @@
 
        .container_input{
         background-color: rgb(27, 36, 53);
-        height: 350px;
+        height: 352px;
         width: 470px;
         padding: 10px;
         position: absolute;
@@ -33,29 +42,50 @@
        .nama{
         margin: 50px 20px 30px 1px;
         font-size: 18px;
-        font-weight: 50;
         color: white;
        }
 
        .umur{
-        margin: 50px 20px 30px 1px;
+        margin: 40px 20px 30px 1px;
         font-size: 18px;
-        font-weight: 50;
         color: white;
        }
+
+
+	   .cc{
+		color: rgb(129, 129, 129);
+		font-size: 11px;
+		padding: 13px;
+	   }
 
        #button{
         color: white;
         background-color: rgb(0, 122, 16);
         margin-bottom: 1px ;
         margin-left: 1px;
-        margin-top: 23px;
+        margin-top: 20px;
         border-radius: 6px;
         font-weight: 600;
         border: none;
         padding: 12px 120px;
         font-size: 14px;
        }
+
+	   .input1{
+		background-color: rgb(54, 71, 102);
+		border: 1px;
+		border-radius: 2px;
+		font-family: 'Poppins', sans-serif;
+		color: white;
+	   }
+
+	   .input2{
+		background-color: rgb(54, 71, 102);
+		border: 1px;
+		border-radius: 2px;
+		font-family: 'Poppins', sans-serif;
+		color: white;
+	   }
     </style>
 </head>
 
@@ -72,18 +102,21 @@
         <h1>Cek Khodam Yuk!</h1>
 
         <div class="nama">
-            <label for="nama">Siapa Nama Anda:</label>
-            <input type="text" name="nama" id="nama" placeholder="Masukan Nama Anda" required>
+            <label for="nama">Siapa Nama Anda :</label>
+            <input type="text" name="nama" id="nama" class="input1" required>
         </div>
             
         <div class="umur">
-            <label for="umur">Berapa Umur Anda:</label>
-            <input type="text" name="umur" id="umur" placeholder="Masukan Umur Anda" required>
+            <label for="umur">Berapa Umur Anda :</label>
+            <input type="text" name="umur" id="umur" class="input2" required>
         </div>
             
         <div class="button">
             <button type="submit" id="button" name="cek">Cek Khodam</button>
         </div>
+		<div class="cc">
+			<i>By GitHub: Retiortuk 2024</i>
+		</div>
     </div>
         
     </form>
