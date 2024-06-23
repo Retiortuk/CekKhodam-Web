@@ -9,7 +9,8 @@ function kodam_program(){
         'Kak Gem'=>'Ikan Teri Ikan Tongkol, PAHAM!!',
         'Macan Hitam'=>'Seseorang Yang Sangar',
         'Macan Putih'=>'Cenderung Memiliki Hati Dan Sifat Yang Bersih Dompet Anda Pun Bersih',
-        ''
+        'Aing Maung'=>'Kamu Memiliki Sifat Yang Mudah Marah Emosian',
+        'Singa'=>''
     ];
 }
 ?>
