@@ -10,7 +10,17 @@ function kodam_program(){
         'Macan Hitam'=>'Seseorang Yang Sangar',
         'Macan Putih'=>'Cenderung Memiliki Hati Dan Sifat Yang Bersih Dompet Anda Pun Bersih',
         'Aing Maung'=>'Kamu Memiliki Sifat Yang Mudah Marah Emosian',
-        'Singa'=>''
+        'Singa'=>'Cenderung Memiliki sifat yang Pemberani dan Rajin',
+        'Gajah'=>'Memiliki Hati Yang Besar',
+        'Tukang Parkir'=>'Memiliki Sifat Suka Mengatur Dan Suka Muncul Tiba-Tiba',
+        'Burung Dara'=>'Seseorang Yang Baik Hati dan Setia',
+        'Pak Vinsen'=>'Suka Minta Nasi 2 Sama ***** Satu',
+        'Tidak Memiliki Khodam'=>'Orang Yang Bersih Dan Suci Agamis',
+        'Daffa Ariq'=>'Bahaya Sebentar Lagi Kamu Berubah Menjadi Anomali',
+        'Genderuwo'=>'Sosok Tunggu Kiris',
+        'Sosok Hitam Tinggi Kiris'=>'Seseorang Yang Misterius',
     ];
+
+    
 }
 ?>
