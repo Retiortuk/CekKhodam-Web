@@ -10,6 +10,8 @@
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Hasil Khodam</title>
 
+
+    <!-- CSS AND STYLE -->
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -22,15 +24,7 @@
         }
 
         .container_hasil {
-            /* background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            max-width: 500px;
-            width: 100%; */
             background-color: rgb(27, 36, 53);
-            height: 450px;
             width: 540px;
             padding: 10px;
             position: absolute;
@@ -42,9 +36,9 @@
             text-align: center;
             border-radius: 15px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            max-width: 90vw;
-       }
-
+            max-width: 90vw; 
+        }
+       
         h1 {
             color: rgb(255, 217, 0);
             font-family: 'Poppins', sans-serif;
@@ -96,11 +90,24 @@
             text-decoration: underline;
             text-decoration: none
         }
+
+        @media only screen and (max-width: 390px) {
+            .container_hasil {
+                height: 450px;
+            }
+        }
+
+        @media only screen and (min-width: 391px) {
+            .container_hasil {
+                height: 380px;
+            }
+        }
     </style>
 </head>
 
-<body>
 
+<!-- MAIN PROGRAM -->
+<body>
     <div class="container_hasil">
         <?php
         function khodam_program($nama, $umur) {
