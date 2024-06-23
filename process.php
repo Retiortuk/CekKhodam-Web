@@ -74,12 +74,13 @@
 </head>
 
 <body>
-    <?php
 
+    <?php
     function khodam_program($nama, $umur) {
         // DATABASE
         $data_khodam = ['Kak Gem', 'Macan Hitam', 'Macan Putih', 'Aing Maung', 'Singa', 'Gajah', 'Tukang Parkir
         ', 'Burung Dara', 'Pak Vinsen', 'Tidak Memiliki Khodam', 'Daffa Ariq', 'Genderuwo', 'Sosok Hitam Tinggi Kiris'];
+        
         $kepribadian_khodam = [
             'Kak Gem'=>'Ikan Teri Ikan Tongkol, PAHAM!!',
             'Macan Hitam'=>'Seseorang Yang Sangar',
@@ -116,6 +117,13 @@
         }
     }
     ?>
+
+    <div class="container_hasil">
+
+        <div class="hasil">
+
+        </div>
+    </div>
 
     <form action="index.html" method="get">
         <input type="submit" value="Cek Lagi">
