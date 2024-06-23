@@ -164,8 +164,8 @@
             max-width: 500px;
             width: 100%; */
             background-color: rgb(27, 36, 53);
-            height: 352px;
-            width: 490px;
+            height: 365px;
+            width: 540px;
             padding: 10px;
             position: absolute;
             margin: auto;
@@ -179,7 +179,7 @@
        }
 
         h1 {
-            color: white;
+            color: rgb(255, 217, 0);
             font-family: 'Poppins', sans-serif;
         }
 
@@ -191,8 +191,8 @@
             display: inline-block;
             padding: 10px 20px;
             margin-top: 20px;
-            background: #5cb85c;
-            color: white;
+            background-color: rgb(255, 217, 0);
+            color: rgb(27, 36, 53);
             text-decoration: none;
             border-radius: 5px;
             font-family: 'Poppins', sans-serif;
@@ -200,7 +200,9 @@
         }
 
         .btn:hover {
-            background: #4cae4c;
+            background-color: white;
+		    color: rgb(43, 43, 43);
+            transition: all 0.1s;
         }
 
         .hasil{
@@ -270,7 +272,7 @@
         </div>
         <a href="index.html" class="btn">Cek Lagi</a>
         <div class="by">
-            <i>By GitHub: Retiortuk CC2024</i>
+            <i>By GitHub: Retiortuk ~2024~</i>
         </div>
     </div>
 
