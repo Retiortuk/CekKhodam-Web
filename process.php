@@ -11,7 +11,7 @@
     <title>Hasil Khodam</title>
 
 
-    <!-- CSS AND STYLE -->
+   <!------------------- STYLE CSS LIBRARY ---------------------->
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -103,17 +103,20 @@
             }
         }
     </style>
+    <!------------------- STYLE CSS LIBRARY END ---------------------->
 </head>
 
 
-<!-- MAIN PROGRAM -->
+<!------------------------------------------------ MAIN PROGRAM ---------------------------------------------------------------------------------------------------------------------------------------------->
 <body>
+
+    <!------------------------------- START PHP ----------------------------------->
     <div class="container_hasil">
         <?php
         function khodam_program($nama, $umur) {
-            // DATABASE
+            
+            // ------------------------ DATABASE KHODAM NYEEE ----------------------------------//
             $data_khodam = ['Kak Gem', 'Macan Hitam', 'Macan Putih', 'Aing Maung', 'Singa', 'Gajah', 'Tukang Parkir', 'Burung Dara', 'Pak Vinsen', 'Tidak Memiliki Khodam', 'Daffa Ariq', 'Genderuwo', 'Sosok Hitam Tinggi Kiris'];
-
             $kepribadian_khodam = [
                 'Kak Gem' => 'Ikan Teri Ikan Tongkol, PAHAM!!',
                 'Macan Hitam' => 'Seseorang Yang Sangar',
@@ -129,16 +132,19 @@
                 'Genderuwo' => 'Sosok Tunggu Kiris',
                 'Sosok Hitam Tinggi Kiris' => 'Seseorang Yang Misterius',
             ];
+            // ------------------------ DATABASE KHODAM NYEEE END ----------------------------------//
 
-            // OUTPUT
+            //-------------------------------- LOGIKA OUTPUT ----------------------------------------------//
             $hasil_khodam = $data_khodam[array_rand($data_khodam)];
             $result = "<p>Halo <strong>$nama</strong>, Khodam Kamu adalah <strong>$hasil_khodam</strong></p>";
             if (array_key_exists($hasil_khodam, $kepribadian_khodam)) {
                 $result .= "<p>Kepribadian $hasil_khodam Artinya " . $kepribadian_khodam[$hasil_khodam] . "</p>";
             }
             return $result;
+            //-------------------------------- LOGIKA OUTPUT END ----------------------------------------------//
         }
 
+        //-------------------------------- LOGIKA UTAMA PHP ----------------------------------------------//
         $result = "";
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $nama = $_POST['nama'];
@@ -149,9 +155,12 @@
             } else {
                 $result = "<p>Masukkan Nama dan Umur yang valid!</p>";
             }
+        //-------------------------------- LOGIKA UTAMA PHP ----------------------------------------------//
         }
         ?>
+      <!------------------------------------------ END PHP ------------------------------------------------>
 
+        <!------------------------------- OUTPUT HTML ----------------------------------->
         <h1>Hasil Khodam</h1>
         <div class="hasil">
             <?= $result ?>
@@ -161,7 +170,6 @@
         <a href="https://github.com/Retiortuk" class="a" target="_blank"><i>By GitHub: Retiortuk ~2024~</i></a>
         </div>
     </div>
-
 </body>
-
+        <!------------------------------- END PROGRAM ----------------------------------->
 </html>
