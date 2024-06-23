@@ -139,6 +139,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Hasil Khodam</title>
 
     <style>
@@ -162,7 +165,7 @@
             width: 100%; */
             background-color: rgb(27, 36, 53);
             height: 352px;
-            width: 470px;
+            width: 490px;
             padding: 10px;
             position: absolute;
             margin: auto;
@@ -176,11 +179,12 @@
        }
 
         h1 {
-            color: #333;
+            color: white;
+            font-family: 'Poppins', sans-serif;
         }
 
         p {
-            color: #666;
+            color: white;
         }
 
         .btn {
@@ -191,6 +195,8 @@
             color: white;
             text-decoration: none;
             border-radius: 5px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
         }
 
         .btn:hover {
@@ -198,7 +204,16 @@
         }
 
         .hasil{
-            margin-top: 134px;
+            margin-top: 85px;
+            font-family: 'Poppins', sans-serif;
+            color: #4cae4c;
+        }
+
+        .by {
+            color: rgb(129, 129, 129);
+            font-size: 11px;
+            padding: 13px;
+            font-family: 'Poppins', sans-serif;
         }
     </style>
 </head>
@@ -255,7 +270,7 @@
         </div>
         <a href="index.html" class="btn">Cek Lagi</a>
         <div class="by">
-            <i>By GitHub: Retiortuk 2024</i>
+            <i>By GitHub: Retiortuk CC2024</i>
         </div>
     </div>
 
