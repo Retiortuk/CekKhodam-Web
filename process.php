@@ -116,21 +116,29 @@
         function khodam_program($nama, $umur) {
             
             // ------------------------ DATABASE KHODAM NYEEE ----------------------------------//
-            $data_khodam = ['Kak Gem', 'Macan Hitam', 'Macan Putih', 'Aing Maung', 'Singa', 'Gajah', 'Tukang Parkir', 'Burung Dara', 'Pak Vinsen', 'Tidak Memiliki Khodam', 'Daffa Ariq', 'Genderuwo', 'Sosok Hitam Tinggi Kiris'];
+            $data_khodam = ['Kak Gem', 'Macan Hitam', 'Macan Putih', 'Aing Maung', 'Singa', 'Gajah', 'Tukang Parkir', 
+		    'Burung Dara', 'Pak Vinsen', 'Tidak Memiliki Khodam', 'Sapi', 'Genderuwo', 'Sosok Hitam Tinggi Kiris',
+		    'Swiftie', 'Kambing', 'Panda', 'Marmut', 'MrBean', 'Cappybara'];
             $kepribadian_khodam = [
-                'Kak Gem' => 'Ikan Teri Ikan Tongkol, PAHAM!!',
+                'Kak Gem' => 'Seseorang Yang Memotivasi Banyak Orang, PAHAM!!',
                 'Macan Hitam' => 'Seseorang Yang Sangar',
                 'Macan Putih' => 'Cenderung Memiliki Hati Dan Sifat Yang Bersih Dompet Anda Pun Bersih',
                 'Aing Maung' => 'Kamu Memiliki Sifat Yang Mudah Marah Emosian',
                 'Singa' => 'Cenderung Memiliki sifat yang Pemberani dan Rajin',
-                'Gajah' => 'Memiliki Hati Yang Besar',
-                'Tukang Parkir' => 'Memiliki Sifat Suka Mengatur Dan Suka Muncul Tiba-Tiba',
+                'Gajah' => 'Memiliki Hati Yang Besar Dan Suka Menolong',
+                'Tukang Parkir' => 'Memiliki Sifat Suka Mengatur Dan Datang Kalo Butuh',
                 'Burung Dara' => 'Seseorang Yang Baik Hati dan Setia',
-                'Pak Vinsen' => 'Suka Minta Nasi 2 Sama ***** Satu',
+                'Pak Vinsen' => 'Kamu Makanan Nya Banyak Seperti Pak Vinsen',
                 'Tidak Memiliki Khodam' => 'Orang Yang Bersih Dan Suci Agamis',
-                'Daffa Ariq' => 'Bahaya Sebentar Lagi Kamu Berubah Menjadi Anomali',
-                'Genderuwo' => 'Sosok Tunggu Kiris',
-                'Sosok Hitam Tinggi Kiris' => 'Seseorang Yang Misterius',
+                'Sapi' => 'Penyayang Dan Royal Disayangi Oleh Orang India',
+                'Genderuwo' => 'Sangar Dan Suka Menakuti Orang',
+                'Sosok Hitam Tinggi Kiris' => 'Seseorang Yang Misterius Dan Enggan Kreamaian',
+		'Swiftie' => 'Baik Hati Menghargai Usaha-Usaha Kecil Namun Mudah Beper',
+		'Kambing' => 'Memiliki Banyak Kepribadian Dan Ber-Kharisma',
+		'Panda' => 'Berperilaku Tidak Disangka Tidak Disiplin Dan Selalu Mengeluh',
+		'Marmut' => 'Pendiam Baik Hati Dan Teratur Hidupnya Mudah Mengatur Duit'
+		'MrBean' => 'Susah Bergaul, Susah Fokus, Dan Berisik',
+		'Cappybara' => 'Orang Nya Santai Dan Mudah Bergaul Masbro'
             ];
             // ------------------------ DATABASE KHODAM NYEEE END ----------------------------------//
 
