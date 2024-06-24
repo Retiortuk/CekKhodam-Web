@@ -91,13 +91,13 @@
             text-decoration: none
         }
 
-        @media only screen and (max-width: 390px) {
+        @media only screen and (max-width: 414px) {
             .container_hasil {
-                height: 450px;
+                height: 480px;
             }
         }
 
-        @media only screen and (min-width: 391px) {
+        @media only screen and (min-width: 415px) {
             .container_hasil {
                 height: 380px;
             }
@@ -118,27 +118,30 @@
             // ------------------------ DATABASE KHODAM NYEEE ----------------------------------//
             $data_khodam = ['Kak Gem', 'Macan Hitam', 'Macan Putih', 'Aing Maung', 'Singa', 'Gajah', 'Tukang Parkir', 
 		    'Burung Dara', 'Pak Vinsen', 'Tidak Memiliki Khodam', 'Sapi', 'Genderuwo', 'Sosok Hitam Tinggi Kiris',
-		    'Swiftie', 'Kambing', 'Panda', 'Marmut', 'MrBean', 'Cappybara'];
+		    'Swiftie', 'Kambing', 'Panda', 'Marmut', 'MrBean', 'Cappybara', 'Naga', 'Ratu Kidul'];
+
             $kepribadian_khodam = [
-                'Kak Gem' => 'Seseorang Yang Memotivasi Banyak Orang, PAHAM!!',
-                'Macan Hitam' => 'Seseorang Yang Sangar',
-                'Macan Putih' => 'Cenderung Memiliki Hati Dan Sifat Yang Bersih Dompet Anda Pun Bersih',
+                'Kak Gem' => 'Anda Seseorang Yang Memotivasi Banyak Orang, PAHAM!!',
+                'Macan Hitam' => 'Lo Adalah Seseorang Yang Sangar',
+                'Macan Putih' => 'Anda Cenderung Memiliki Hati Dan Sifat Yang Bersih Dompet Anda Pun Bersih',
                 'Aing Maung' => 'Kamu Memiliki Sifat Yang Mudah Marah Emosian',
-                'Singa' => 'Cenderung Memiliki sifat yang Pemberani dan Rajin',
-                'Gajah' => 'Memiliki Hati Yang Besar Dan Suka Menolong',
-                'Tukang Parkir' => 'Memiliki Sifat Suka Mengatur Dan Datang Kalo Butuh',
-                'Burung Dara' => 'Seseorang Yang Baik Hati dan Setia',
+                'Singa' => 'Kamu Cenderung Memiliki sifat yang Pemberani dan Rajin',
+                'Gajah' => 'Kamu Memiliki Hati Yang Besar Dan Suka Menolong',
+                'Tukang Parkir' => 'Kamu Memiliki Sifat Suka Mengatur Dan Datang Kalo Butuh',
+                'Burung Dara' => 'Kamu orang Yang Baik Hati dan Setia',
                 'Pak Vinsen' => 'Kamu Makanan Nya Banyak Seperti Pak Vinsen',
-                'Tidak Memiliki Khodam' => 'Orang Yang Bersih Dan Suci Agamis',
-                'Sapi' => 'Penyayang Dan Royal Disayangi Oleh Orang India',
-                'Genderuwo' => 'Sangar Dan Suka Menakuti Orang',
-                'Sosok Hitam Tinggi Kiris' => 'Seseorang Yang Misterius Dan Enggan Kreamaian',
-		'Swiftie' => 'Baik Hati Menghargai Usaha-Usaha Kecil Namun Mudah Beper',
-		'Kambing' => 'Memiliki Banyak Kepribadian Dan Ber-Kharisma',
-		'Panda' => 'Berperilaku Tidak Disangka Tidak Disiplin Dan Selalu Mengeluh',
-		'Marmut' => 'Pendiam Baik Hati Dan Teratur Hidupnya Mudah Mengatur Duit',
-		'MrBean' => 'Susah Bergaul, Susah Fokus, Dan Berisik',
-		'Cappybara' => 'Orang Nya Santai Dan Mudah Bergaul Masbro'
+                'Tidak Memiliki Khodam' => 'Kamu Orang Yang Bersih Dan Suci Agamis',
+                'Sapi' => 'Kamu Penyayang Dan Royal Disayangi Oleh Orang India',
+                'Genderuwo' => 'Kamu Sangar Dan Suka Menakuti Orang',
+                'Sosok Hitam Tinggi Kiris' => 'Kamu Seseorang Yang Misterius Dan Enggan Kreamaian',
+                'Swiftie' => 'Anda Baik Hati Menghargai Usaha-Usaha Kecil Namun Mudah Baper',
+                'Kambing' => 'Anda Memiliki Banyak Kepribadian Dan Ber-Kharisma',
+                'Panda' => 'Anda Berperilaku Tidak Disangka Tidak Disiplin Dan Selalu Mengeluh',
+                'Marmut' => 'Kamu Pendiam Baik Hati Dan Teratur Hidupnya Mudah Mengatur Duit',
+                'MrBean' => 'Anda Susah Bergaul, Susah Fokus, Dan Berisik',
+                'Cappybara' => 'Kamu Orang Nya Santai Dan Mudah Bergaul Masbro',
+                'Naga'=>'Kamu Orang Nya Teliti Berwibawa Dan Penuh Akal Cocok Menjadi Pembisnis',
+                'Ratu Kidul'=>'Kamu Mudah Dihormati dan disegani Oleh Seluruh Makhluk Di Dunia Goib'
             ];
             // ------------------------ DATABASE KHODAM NYEEE END ----------------------------------//
 
