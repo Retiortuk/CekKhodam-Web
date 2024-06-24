@@ -136,7 +136,7 @@
 		'Swiftie' => 'Baik Hati Menghargai Usaha-Usaha Kecil Namun Mudah Beper',
 		'Kambing' => 'Memiliki Banyak Kepribadian Dan Ber-Kharisma',
 		'Panda' => 'Berperilaku Tidak Disangka Tidak Disiplin Dan Selalu Mengeluh',
-		'Marmut' => 'Pendiam Baik Hati Dan Teratur Hidupnya Mudah Mengatur Duit'
+		'Marmut' => 'Pendiam Baik Hati Dan Teratur Hidupnya Mudah Mengatur Duit',
 		'MrBean' => 'Susah Bergaul, Susah Fokus, Dan Berisik',
 		'Cappybara' => 'Orang Nya Santai Dan Mudah Bergaul Masbro'
             ];
