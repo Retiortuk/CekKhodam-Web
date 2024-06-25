@@ -118,7 +118,7 @@
             // ------------------------ DATABASE KHODAM NYEEE ----------------------------------//
             $data_khodam = ['Kak Gem', 'Macan Hitam', 'Macan Putih', 'Aing Maung', 'Singa', 'Gajah', 'Tukang Parkir', 
 		    'Burung Dara', 'Pak Vinsen', 'Tidak Memiliki Khodam', 'Sapi', 'Genderuwo', 'Sosok Hitam Tinggi Kiris',
-		    'Swiftie', 'Kambing', 'Panda', 'Marmut', 'MrBean', 'Cappybara', 'Naga', 'Ratu Kidul'];
+		    'Swiftie', 'Kambing', 'Panda', 'Marmut', 'MrBean', 'Cappybara', 'Naga', 'Ratu Kidul', 'Ular Kobra', 'Burung Garuda', 'Kera Sakti'];
 
             $kepribadian_khodam = [
                 'Kak Gem' => 'Anda Seseorang Yang Memotivasi Banyak Orang, PAHAM!!',
@@ -141,7 +141,10 @@
                 'MrBean' => 'Anda Susah Bergaul, Susah Fokus, Dan Berisik',
                 'Cappybara' => 'Kamu Orang Nya Santai Dan Mudah Bergaul Masbro',
                 'Naga'=>'Kamu Orang Nya Teliti Berwibawa Dan Penuh Akal Cocok Menjadi Pembisnis',
-                'Ratu Kidul'=>'Kamu Mudah Dihormati dan disegani Oleh Seluruh Makhluk Di Dunia Goib'
+                'Ratu Kidul'=>'Kamu Mudah Dihormati dan disegani Oleh Seluruh Makhluk Di Dunia Goib',
+                'Ular Kobra'=>'Kamu Adalah Orang Yang Pemberani Dan Tidak Mudah Takut',
+                'Burung Garuda'=>'kamu Adalah Orang Yang Pekerja Keras Berjiwa Patriot Dan Setia',
+                'Kera Sakti'=>'Kamu Adalah Orang Yang Rakus Dan Penuh Dengan Omongan Kosong'
             ];
             // ------------------------ DATABASE KHODAM NYEEE END ----------------------------------//
 
