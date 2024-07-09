@@ -4,3 +4,5 @@ https://checkyourspirit.000webhostapp.com/
 
 LINK VALID SAMPAI 22/06/2025
 
+Projek Ini Bersifat Open Source Ya :) Jadi Kalo ada Yang Mau Tiru Amati Dan Moodifikasi Monggo :) <i>Retiortuk 2024</i>
+
