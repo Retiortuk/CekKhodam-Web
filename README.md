@@ -4,6 +4,7 @@
 
 <p> Karena Akhir Akhir ini Marak Sekali Dengan Fenomena Cek Khodam wkwkwk Jadi Oleh Karena Itu Saya Buatlah Hitung-Hitung Latihan, Keseluruhan Saya Buat Dalam HTML CSS Dan PHP Dan Kenapa PHP? Karena
 Menggunakan PHP Jauh Lebih Efiesien Dan Sambil Latihan Karena Saya Belom Pernah Nyentuh PHP Sama Sekali Lumayan Lah Buat Projek Pertama PHP Saya :). 
+ <br> 
   <strong> Projek Ini Bersifat Open Source Ya :) Jadi Kalo ada Yang Mau Tiru Amati Dan Moodifikasi Monggo :)</strong>  </p>
 
 <strong>Website Cek Khodam Menggunakan HTML PHP Di GItHub Hanya RAW File nya Jika Kamu Mau Coba Kunjungi Link Berikut:</strong>
