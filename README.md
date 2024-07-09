@@ -12,7 +12,7 @@ Menggunakan PHP Jauh Lebih Efiesien Dan Sambil Latihan Karena Saya Belom Pernah 
 
 <strong>Bagi Yang Ingin Nyoba Link Webnya valid sampai 22/06/2025, Atau Buka Saja Di Local HtDocs Kalian Terima Kasih!</strong>
 
-<h4><strong>Peringatan!</strong></h4>
+<h3><strong>Peringatan!</strong></h3>
 <p><strong>Projek Ini Bersifat Open Source Ya :) Jadi Kalo ada Yang Mau Tiru Amati Dan Moodifikasi Monggo :)</strong></p> 
 
 <i>Retiortuk 2024</i>
